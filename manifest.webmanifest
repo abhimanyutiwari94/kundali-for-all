@@ -1,0 +1,26 @@
+{
+  "name": "Kundali for All · कुंडली फ़ॉर ऑल",
+  "short_name": "Kundali",
+  "description": "Accurate Vedic astrology in Hindi and English — kundali, all divisional charts, dashas, matching, panchang and personal horoscopes. Works offline; your data stays on your device.",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fbf6ee",
+  "theme_color": "#7a1f2b",
+  "lang": "hi",
+  "dir": "ltr",
+  "categories": ["lifestyle", "education", "utilities"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Today's horoscope · आज का राशिफल", "short_name": "Horoscope", "url": "./index.html#/horoscope" },
+    { "name": "Panchang · पंचांग", "short_name": "Panchang", "url": "./index.html#/panchang" },
+    { "name": "New Kundali · नई कुंडली", "short_name": "New", "url": "./index.html#/new" },
+    { "name": "Kundali Milan · कुंडली मिलान", "short_name": "Matching", "url": "./index.html#/match" }
+  ]
+}
